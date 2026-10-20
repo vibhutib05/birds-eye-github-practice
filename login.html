@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Bird's Eye - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eaf3ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .login-box {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      width: 320px;
+      box-shadow: 0 4px 15px #ccd8e8;
+    }
+    h1 {
+      color: #1453a3;
+      text-align: center;
+    }
+    input, button {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border-radius: 6px;
+    }
+    input { border: 1px solid #ccc; }
+    button {
+      background: #1453a3;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>Bird's Eye</h1>
+    <h2>Login</h2>
+    <form>
+      <input type="email"
+             placeholder="Email"
+             aria-label="Email" required>
+      <input type="password"
+             placeholder="Password"
+             aria-label="Password" required>
+      <button type="button">Login</button>
+    </form>
+  </div>
+</body>
+</html>
